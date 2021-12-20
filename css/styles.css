@@ -94,6 +94,7 @@ img {
   line-height: 1.2em;
   letter-spacing: 0.02em;
   color: #212121;
+  transition: 250ms var(--timing-fuction);
 }
 
 .link-box {
@@ -116,7 +117,6 @@ img {
 .nav-link:hover,
 .nav-link:focus {
   color: var(--theme-color);
-  transition: 250ms var(--timing-fuction);
 }
 
 /* PORTFOLIO.HTML*/
@@ -150,6 +150,7 @@ img {
   letter-spacing: 0.03em;
   color: #212121;
   cursor: pointer;
+  transition: 250ms var(--timing-fuction);
 }
 .filter-btn:hover,
 .filter-btn:focus {
@@ -157,7 +158,6 @@ img {
   box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1);
   border-radius: 4px;
   color: #ffffff;
-  transition: 250ms var(--timing-fuction);
 }
 
 .examples-links {
@@ -168,13 +168,13 @@ img {
 
 .examples-item {
   width: 370px;
+  transition: 250ms var(--timing-fuction);
 }
 
 .examples-item:hover,
 .examples-item:focus {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
-  transition: 250ms var(--timing-fuction);
 }
 
 .examples-item:not(:nth-child(3n)) {
@@ -367,12 +367,6 @@ img {
   background: rgba(47, 48, 58, 0.8);
 
   transition: 250ms var(--timing-fuction);
-  opacity: 0;
-}
-
-.specification-item:hover .text-hover,
-.specification-item:hover .text-hover {
-  opacity: 1;
 }
 
 .specification-links {
@@ -460,13 +454,13 @@ img {
 
   border-radius: 50%;
   background-color: #fff;
-  fill: #757575;
+  fill: #afb1b8;
+  transition: 250ms var(--timing-fuction);
 }
 .master-social-link:hover,
 .master-social-link:focus {
   background-color: var(--theme-color);
   fill: #fff;
-  transition: 250ms var(--timing-fuction);
 }
 
 /* Section Clients */
@@ -492,7 +486,9 @@ img {
 
   border: 1px solid #afb1b8;
   border-radius: 4px;
-  fill: #757575;
+  fill: #afb1b8;
+
+  transition: 250ms var(--timing-fuction);
 }
 
 .client-list:not(:last-child) {
@@ -503,7 +499,6 @@ img {
 .client-item:focus {
   fill: var(--theme-color);
   border: 1px solid var(--theme-color);
-  transition: 250ms var(--timing-fuction);
 }
 
 /* FOOTER */
